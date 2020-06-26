@@ -99,6 +99,13 @@
 		6D07B74E24A57D1B00FEBEBB /* HappyDog */ = {
 			isa = PBXGroup;
 			children = (
+				6D07B78924A58A2F00FEBEBB /* API */,
+				6D07B78624A589C200FEBEBB /* DataSource */,
+				6D07B78524A589B800FEBEBB /* Model */,
+				6D07B78424A589B300FEBEBB /* Coordinator */,
+				6D07B78324A5897100FEBEBB /* ViewModels */,
+				6D07B78224A5896000FEBEBB /* Views */,
+				6D07B78124A5895000FEBEBB /* Controllers */,
 				6D07B74F24A57D1B00FEBEBB /* AppDelegate.swift */,
 				6D07B75124A57D1B00FEBEBB /* SceneDelegate.swift */,
 				6D07B75324A57D1B00FEBEBB /* ViewController.swift */,
@@ -126,6 +133,55 @@
 				6D07B77324A57D1C00FEBEBB /* Info.plist */,
 			);
 			path = HappyDogUITests;
+			sourceTree = "<group>";
+		};
+		6D07B78124A5895000FEBEBB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D07B78224A5896000FEBEBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D07B78324A5897100FEBEBB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D07B78424A589B300FEBEBB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6D07B78524A589B800FEBEBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D07B78624A589C200FEBEBB /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		6D07B78924A58A2F00FEBEBB /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
