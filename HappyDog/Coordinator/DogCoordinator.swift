@@ -16,10 +16,11 @@ class DogCoordinator {
         self.navigation = navigation
     }
     
-       func start() -> UIWindow {
+    func start() -> UIWindow {
         let window = UIWindow(frame: UIScreen.main.bounds)
-        let controller = UserViewController(navigation: navigation)
+        let controller = LoginViewController(navigation: navigation)
         window.rootViewController = controller
         return window
     }
+    
 }

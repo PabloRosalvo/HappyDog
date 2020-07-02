@@ -10,8 +10,7 @@ import Foundation
 import Alamofire
 
 protocol DogApiProtocol {
-    func getBaseUrl(_ endPoint: String) -> URL?
-    var token: String? { get set}
+    func fetchUserToken(completion: @escaping (Int, _ user: User?) -> Swift.Void)
 }
 
 class DogbApi: DogApiProtocol {
@@ -28,14 +27,12 @@ class DogbApi: DogApiProtocol {
         return BaseUrls.happyDogs?.appendingPathComponent(endPoint)
     }
 
-    func fetchUserToken(completion: @escaping (Int?, _ user: User?) -> Swift.Void)  {
+    func fetchUserToken(completion: @escaping (Int, _ user: User?) -> Swift.Void)  {
         guard let url: URL = getBaseUrl("/signup") else { return }
-        
         let headers: HTTPHeaders = [ "Content-Type": "application/json" ]
-        let parms: Parameters = [ "email": "pablo.rosalvo2014.2@gmail.com" ]
+        let parms: Parameters = [ "email": "teet@gmail.com" ]
 
         connectionManager.request(url: url, method: .post, parameters: parms, headers: headers, encoding: JSONEncoding.default) { statusCode, user in
-            
             completion(statusCode, user)
         }
     }

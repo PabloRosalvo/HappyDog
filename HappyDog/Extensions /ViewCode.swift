@@ -7,14 +7,15 @@
 //
 
 import Foundation
-protocol ViewCodeProtocol: AnyObject {
+
+public protocol ViewCode {
     func setupViews()
     func configureViews()
     func setupViewHierarchy()
     func setupConstraints()
 }
 
-extension ViewCodeProtocol {
+extension ViewCode {
     public func setupViews() {
         configureViews()
         setupViewHierarchy()

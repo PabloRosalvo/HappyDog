@@ -9,9 +9,12 @@
 import Foundation
 
 struct User: Codable {
-    let _id: String?
-    let email: String?
-    let token: String?
-    let createdAt: String?
+    let user: UserDetais?
+}
+
+// MARK: - User
+struct UserDetais: Codable {
+    let id, email, token, createdAt: String?
     let updatedAt: String?
+    let v: Int?
 }

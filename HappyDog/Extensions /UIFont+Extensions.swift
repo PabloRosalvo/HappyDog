@@ -6,4 +6,14 @@
 //  Copyright © 2020 Pablo Rosalvo de Melo Lopes. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIFont {
+    static public func regular(ofSize: CGFloat) -> UIFont {
+        return self.systemFont(ofSize: ofSize, weight: .regular)
+    }
+    
+    static public func bold(ofSize: CGFloat) -> UIFont {
+        return self.systemFont(ofSize: ofSize, weight: .bold)
+    }
+}

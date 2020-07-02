@@ -10,7 +10,7 @@ target 'HappyDog' do
   pod 'SwiftGen'
   pod 'Kingfisher', '~> 4.0'
   pod 'SnapKit', '~> 5.0.0'
-
+  
   target 'HappyDogTests' do
     inherit! :search_paths
     # Pods for testing

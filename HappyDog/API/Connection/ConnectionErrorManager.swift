@@ -10,11 +10,17 @@ import Foundation
 import UIKit
 
 class ConnectionErrorManager {
-    static func isSuccessfulStatusCode(statusCode: Int) -> Bool {
+    
+    enum CallBack {
+        case success
+        case fail
+    }
+    
+    static func isSuccessfulStatusCode(statusCode: Int) -> CallBack {
         if (statusCode >= 200 && statusCode < 300) {
-            return true
+            return .success
         }
-    return false
+        return .fail
     }
     
 }
