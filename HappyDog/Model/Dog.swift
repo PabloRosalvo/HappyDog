@@ -1,0 +1,13 @@
+//
+//  Dog.swift
+//  HappyDog
+//
+//  Created by Pablo Rosalvo de Melo Lopes on 25/06/20.
+//  Copyright © 2020 Pablo Rosalvo de Melo Lopes. All rights reserved.
+//
+
+import Foundation
+
+struct Dog: Codable {
+    
+}

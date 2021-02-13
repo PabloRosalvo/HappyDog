@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB5C74C56C0AEB2910A5489 /* Pods_HappyDogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3404D42492784612F944CB /* Pods_HappyDogTests.framework */; };
+		49CA1ECCB12E9664477691ED /* Pods_HappyDog_HappyDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF92C513C03B99B78833E66 /* Pods_HappyDog_HappyDogUITests.framework */; };
 		6D07B75024A57D1B00FEBEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B74F24A57D1B00FEBEBB /* AppDelegate.swift */; };
-		6D07B75224A57D1B00FEBEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B75124A57D1B00FEBEBB /* SceneDelegate.swift */; };
-		6D07B75424A57D1B00FEBEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B75324A57D1B00FEBEBB /* ViewController.swift */; };
-		6D07B75724A57D1B00FEBEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D07B75524A57D1B00FEBEBB /* Main.storyboard */; };
 		6D07B75924A57D1C00FEBEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D07B75824A57D1C00FEBEBB /* Assets.xcassets */; };
 		6D07B75C24A57D1C00FEBEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D07B75A24A57D1C00FEBEBB /* LaunchScreen.storyboard */; };
 		6D07B76724A57D1C00FEBEBB /* HappyDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B76624A57D1C00FEBEBB /* HappyDogTests.swift */; };
 		6D07B77224A57D1C00FEBEBB /* HappyDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B77124A57D1C00FEBEBB /* HappyDogUITests.swift */; };
+		6D07B78F24A58E7900FEBEBB /* ConnetionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B78C24A58E7900FEBEBB /* ConnetionManager.swift */; };
+		6D07B79024A58E7900FEBEBB /* ConnectionErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B78D24A58E7900FEBEBB /* ConnectionErrorManager.swift */; };
+		6D07B79324A58E8F00FEBEBB /* DogApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B79224A58E8F00FEBEBB /* DogApi.swift */; };
+		6D07B79524A58F1000FEBEBB /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07B79424A58F1000FEBEBB /* Dog.swift */; };
+		6D12811B24A596DB002A84B7 /* BaseUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12811A24A596DB002A84B7 /* BaseUrls.swift */; };
+		6D12811D24A5A12F002A84B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12811C24A5A12F002A84B7 /* User.swift */; };
+		6D12811F24A5A6C1002A84B7 /* DogCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12811E24A5A6C1002A84B7 /* DogCoordinator.swift */; };
+		6D12812124A5A6E7002A84B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12812024A5A6E7002A84B7 /* LoginViewController.swift */; };
+		6D6838C924AD64AE00345C21 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6838C824AD64AE00345C21 /* LoginViewModel.swift */; };
+		6D6838CB24AD6D8800345C21 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6838CA24AD6D8800345C21 /* LoginView.swift */; };
+		6D6838CD24AD6E7C00345C21 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6838CC24AD6E7C00345C21 /* ViewCode.swift */; };
+		6D6838D024AD74D700345C21 /* Strings+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6838CF24AD74D700345C21 /* Strings+Extension.swift */; };
+		6D6838D224AD925100345C21 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6838D124AD925100345C21 /* UITextField+Extensions.swift */; };
+		6D6838D424AD935300345C21 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6838D324AD935300345C21 /* UIFont+Extensions.swift */; };
+		AAA462974BE9BAC4B826EC39 /* Pods_HappyDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0CE59E38F2A49881EB2F47 /* Pods_HappyDog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45E69B0B73617EC5DF3407FA /* Pods-HappyDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDog.debug.xcconfig"; path = "Target Support Files/Pods-HappyDog/Pods-HappyDog.debug.xcconfig"; sourceTree = "<group>"; };
+		53901521DACD738CEF430BA5 /* Pods-HappyDogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDogTests.release.xcconfig"; path = "Target Support Files/Pods-HappyDogTests/Pods-HappyDogTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B0CE59E38F2A49881EB2F47 /* Pods_HappyDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D07B74C24A57D1B00FEBEBB /* HappyDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D07B74F24A57D1B00FEBEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D07B75124A57D1B00FEBEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D07B75324A57D1B00FEBEBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6D07B75624A57D1B00FEBEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D07B75824A57D1C00FEBEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D07B75B24A57D1C00FEBEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D07B75D24A57D1C00FEBEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,26 @@
 		6D07B76D24A57D1C00FEBEBB /* HappyDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D07B77124A57D1C00FEBEBB /* HappyDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDogUITests.swift; sourceTree = "<group>"; };
 		6D07B77324A57D1C00FEBEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D07B78C24A58E7900FEBEBB /* ConnetionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnetionManager.swift; sourceTree = "<group>"; };
+		6D07B78D24A58E7900FEBEBB /* ConnectionErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionErrorManager.swift; sourceTree = "<group>"; };
+		6D07B79224A58E8F00FEBEBB /* DogApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApi.swift; sourceTree = "<group>"; };
+		6D07B79424A58F1000FEBEBB /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		6D12811A24A596DB002A84B7 /* BaseUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrls.swift; sourceTree = "<group>"; };
+		6D12811C24A5A12F002A84B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D12811E24A5A6C1002A84B7 /* DogCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCoordinator.swift; sourceTree = "<group>"; };
+		6D12812024A5A6E7002A84B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6D6838C824AD64AE00345C21 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6D6838CA24AD6D8800345C21 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6D6838CC24AD6E7C00345C21 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		6D6838CF24AD74D700345C21 /* Strings+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Extension.swift"; sourceTree = "<group>"; };
+		6D6838D124AD925100345C21 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		6D6838D324AD935300345C21 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		7D3404D42492784612F944CB /* Pods_HappyDogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyDogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808556F6EEBEBE85DE711C9C /* Pods-HappyDog-HappyDogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDog-HappyDogUITests.debug.xcconfig"; path = "Target Support Files/Pods-HappyDog-HappyDogUITests/Pods-HappyDog-HappyDogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB0E9C6E34C88CF83FEC88D /* Pods-HappyDogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDogTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyDogTests/Pods-HappyDogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA61060BA6A7249ED268F6A /* Pods-HappyDog-HappyDogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDog-HappyDogUITests.release.xcconfig"; path = "Target Support Files/Pods-HappyDog-HappyDogUITests/Pods-HappyDog-HappyDogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBF92C513C03B99B78833E66 /* Pods_HappyDog_HappyDogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyDog_HappyDogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE861B0508DFD8ABE4F30262 /* Pods-HappyDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDog.release.xcconfig"; path = "Target Support Files/Pods-HappyDog/Pods-HappyDog.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA462974BE9BAC4B826EC39 /* Pods_HappyDog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB5C74C56C0AEB2910A5489 /* Pods_HappyDogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CA1ECCB12E9664477691ED /* Pods_HappyDog_HappyDogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +120,8 @@
 				6D07B76524A57D1C00FEBEBB /* HappyDogTests */,
 				6D07B77024A57D1C00FEBEBB /* HappyDogUITests */,
 				6D07B74D24A57D1B00FEBEBB /* Products */,
+				738DC3B673DD9CEF9B2F2682 /* Pods */,
+				BEC09C6621CB51D45EDE7560 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,20 +138,19 @@
 		6D07B74E24A57D1B00FEBEBB /* HappyDog */ = {
 			isa = PBXGroup;
 			children = (
-				6D07B78924A58A2F00FEBEBB /* API */,
+				6D07B78A24A58E7900FEBEBB /* API */,
 				6D07B78624A589C200FEBEBB /* DataSource */,
 				6D07B78524A589B800FEBEBB /* Model */,
 				6D07B78424A589B300FEBEBB /* Coordinator */,
 				6D07B78324A5897100FEBEBB /* ViewModels */,
 				6D07B78224A5896000FEBEBB /* Views */,
 				6D07B78124A5895000FEBEBB /* Controllers */,
-				6D07B74F24A57D1B00FEBEBB /* AppDelegate.swift */,
-				6D07B75124A57D1B00FEBEBB /* SceneDelegate.swift */,
-				6D07B75324A57D1B00FEBEBB /* ViewController.swift */,
-				6D07B75524A57D1B00FEBEBB /* Main.storyboard */,
 				6D07B75824A57D1C00FEBEBB /* Assets.xcassets */,
 				6D07B75A24A57D1C00FEBEBB /* LaunchScreen.storyboard */,
+				6D07B74F24A57D1B00FEBEBB /* AppDelegate.swift */,
 				6D07B75D24A57D1C00FEBEBB /* Info.plist */,
+				6D12811924A596BE002A84B7 /* BaseUrl */,
+				6D6838CE24AD6E8E00345C21 /* Extensions  */,
 			);
 			path = HappyDog;
 			sourceTree = "<group>";
@@ -138,6 +176,7 @@
 		6D07B78124A5895000FEBEBB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6D12812024A5A6E7002A84B7 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,6 +184,7 @@
 		6D07B78224A5896000FEBEBB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6D6838CA24AD6D8800345C21 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +192,7 @@
 		6D07B78324A5897100FEBEBB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				6D6838C824AD64AE00345C21 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -159,6 +200,7 @@
 		6D07B78424A589B300FEBEBB /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				6D12811E24A5A6C1002A84B7 /* DogCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -166,6 +208,8 @@
 		6D07B78524A589B800FEBEBB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6D07B79424A58F1000FEBEBB /* Dog.swift */,
+				6D12811C24A5A12F002A84B7 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,11 +221,64 @@
 			path = DataSource;
 			sourceTree = "<group>";
 		};
-		6D07B78924A58A2F00FEBEBB /* API */ = {
+		6D07B78A24A58E7900FEBEBB /* API */ = {
 			isa = PBXGroup;
 			children = (
+				6D07B78B24A58E7900FEBEBB /* Connection */,
+				6D07B79224A58E8F00FEBEBB /* DogApi.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		6D07B78B24A58E7900FEBEBB /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				6D07B78C24A58E7900FEBEBB /* ConnetionManager.swift */,
+				6D07B78D24A58E7900FEBEBB /* ConnectionErrorManager.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		6D12811924A596BE002A84B7 /* BaseUrl */ = {
+			isa = PBXGroup;
+			children = (
+				6D12811A24A596DB002A84B7 /* BaseUrls.swift */,
+			);
+			path = BaseUrl;
+			sourceTree = "<group>";
+		};
+		6D6838CE24AD6E8E00345C21 /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				6D6838CC24AD6E7C00345C21 /* ViewCode.swift */,
+				6D6838CF24AD74D700345C21 /* Strings+Extension.swift */,
+				6D6838D124AD925100345C21 /* UITextField+Extensions.swift */,
+				6D6838D324AD935300345C21 /* UIFont+Extensions.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
+		738DC3B673DD9CEF9B2F2682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E69B0B73617EC5DF3407FA /* Pods-HappyDog.debug.xcconfig */,
+				EE861B0508DFD8ABE4F30262 /* Pods-HappyDog.release.xcconfig */,
+				808556F6EEBEBE85DE711C9C /* Pods-HappyDog-HappyDogUITests.debug.xcconfig */,
+				EAA61060BA6A7249ED268F6A /* Pods-HappyDog-HappyDogUITests.release.xcconfig */,
+				ADB0E9C6E34C88CF83FEC88D /* Pods-HappyDogTests.debug.xcconfig */,
+				53901521DACD738CEF430BA5 /* Pods-HappyDogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEC09C6621CB51D45EDE7560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0CE59E38F2A49881EB2F47 /* Pods_HappyDog.framework */,
+				EBF92C513C03B99B78833E66 /* Pods_HappyDog_HappyDogUITests.framework */,
+				7D3404D42492784612F944CB /* Pods_HappyDogTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D07B77624A57D1C00FEBEBB /* Build configuration list for PBXNativeTarget "HappyDog" */;
 			buildPhases = (
+				D59D3281136692BBA176585C /* [CP] Check Pods Manifest.lock */,
 				6D07B74824A57D1B00FEBEBB /* Sources */,
 				6D07B74924A57D1B00FEBEBB /* Frameworks */,
 				6D07B74A24A57D1B00FEBEBB /* Resources */,
+				44C7CD7C7D2895E3CF2650EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D07B77924A57D1C00FEBEBB /* Build configuration list for PBXNativeTarget "HappyDogTests" */;
 			buildPhases = (
+				FB714782EF8111FA1A4B9279 /* [CP] Check Pods Manifest.lock */,
 				6D07B75E24A57D1C00FEBEBB /* Sources */,
 				6D07B75F24A57D1C00FEBEBB /* Frameworks */,
 				6D07B76024A57D1C00FEBEBB /* Resources */,
@@ -226,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D07B77C24A57D1C00FEBEBB /* Build configuration list for PBXNativeTarget "HappyDogUITests" */;
 			buildPhases = (
+				C59BA845B87D027C62090ABA /* [CP] Check Pods Manifest.lock */,
 				6D07B76924A57D1C00FEBEBB /* Sources */,
 				6D07B76A24A57D1C00FEBEBB /* Frameworks */,
 				6D07B76B24A57D1C00FEBEBB /* Resources */,
+				89DDF6FEA3F2834AB3C13900 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,7 +392,6 @@
 			files = (
 				6D07B75C24A57D1C00FEBEBB /* LaunchScreen.storyboard in Resources */,
 				6D07B75924A57D1C00FEBEBB /* Assets.xcassets in Resources */,
-				6D07B75724A57D1B00FEBEBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +411,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44C7CD7C7D2895E3CF2650EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyDog/Pods-HappyDog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyDog/Pods-HappyDog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyDog/Pods-HappyDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DDF6FEA3F2834AB3C13900 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyDog-HappyDogUITests/Pods-HappyDog-HappyDogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyDog-HappyDogUITests/Pods-HappyDog-HappyDogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyDog-HappyDogUITests/Pods-HappyDog-HappyDogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59BA845B87D027C62090ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyDog-HappyDogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D59D3281136692BBA176585C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB714782EF8111FA1A4B9279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyDogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D07B74824A57D1B00FEBEBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D07B75424A57D1B00FEBEBB /* ViewController.swift in Sources */,
+				6D07B79324A58E8F00FEBEBB /* DogApi.swift in Sources */,
+				6D6838CD24AD6E7C00345C21 /* ViewCode.swift in Sources */,
+				6D07B79024A58E7900FEBEBB /* ConnectionErrorManager.swift in Sources */,
+				6D12811B24A596DB002A84B7 /* BaseUrls.swift in Sources */,
+				6D12812124A5A6E7002A84B7 /* LoginViewController.swift in Sources */,
+				6D12811F24A5A6C1002A84B7 /* DogCoordinator.swift in Sources */,
+				6D07B78F24A58E7900FEBEBB /* ConnetionManager.swift in Sources */,
+				6D6838D224AD925100345C21 /* UITextField+Extensions.swift in Sources */,
+				6D6838D024AD74D700345C21 /* Strings+Extension.swift in Sources */,
+				6D12811D24A5A12F002A84B7 /* User.swift in Sources */,
 				6D07B75024A57D1B00FEBEBB /* AppDelegate.swift in Sources */,
-				6D07B75224A57D1B00FEBEBB /* SceneDelegate.swift in Sources */,
+				6D6838CB24AD6D8800345C21 /* LoginView.swift in Sources */,
+				6D6838C924AD64AE00345C21 /* LoginViewModel.swift in Sources */,
+				6D6838D424AD935300345C21 /* UIFont+Extensions.swift in Sources */,
+				6D07B79524A58F1000FEBEBB /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,14 +569,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D07B75524A57D1B00FEBEBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D07B75624A57D1B00FEBEBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6D07B75A24A57D1C00FEBEBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -488,6 +696,7 @@
 		};
 		6D07B77724A57D1C00FEBEBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E69B0B73617EC5DF3407FA /* Pods-HappyDog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +714,7 @@
 		};
 		6D07B77824A57D1C00FEBEBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE861B0508DFD8ABE4F30262 /* Pods-HappyDog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +732,7 @@
 		};
 		6D07B77A24A57D1C00FEBEBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB0E9C6E34C88CF83FEC88D /* Pods-HappyDogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +754,7 @@
 		};
 		6D07B77B24A57D1C00FEBEBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53901521DACD738CEF430BA5 /* Pods-HappyDogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +776,7 @@
 		};
 		6D07B77D24A57D1C00FEBEBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808556F6EEBEBE85DE711C9C /* Pods-HappyDog-HappyDogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +796,7 @@
 		};
 		6D07B77E24A57D1C00FEBEBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA61060BA6A7249ED268F6A /* Pods-HappyDog-HappyDogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
